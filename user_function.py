@@ -1,7 +1,8 @@
 def register_user():
 
  	name1 = input('Enter your first name:')
- 	name2 = input('Enter your last name:')
+ 	name2 = inp
+ 	ut('Enter your last name:')
  	email = f'{name1}.{name2}@email.com'
  	full = f'{name1}.{name2}'
  	created_user = ({'user_name': full, 'email' :email })
